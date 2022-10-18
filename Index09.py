@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.isdigit():
+        return int(s)
+    if s.isalpha():
+        return -1    
+print(main('j'))    
